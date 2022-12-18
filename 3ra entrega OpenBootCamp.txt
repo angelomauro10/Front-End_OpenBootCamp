@@ -1,0 +1,67 @@
+Para practicar la encapsulación:
+
+Crear clase Persona.
+
+Crear variables las privadas edad, nombre y telefono de la clase Persona.
+
+Crear gets y sets de cada propiedad.
+
+Crear un objeto persona en el main.
+
+Utiliza los gets y sets para darle valores a las propiedades edad, nombre y telefono, por último muéstralas por consola.
+
+
+
+Persona personita = new.Persona(){
+     
+     Persona.setEdad(10);
+     Integer edad = Persona.getEdad();
+
+     Persona.setNombre("Andres");
+     String nombre = Persona.getNombre();
+
+     Integer telefono = Persona.getTelefono();
+     Persona.setTelefono(1234 5678);
+
+     System.out.println(personita.getEdad());
+     System.out.println(personita.getNombre());
+     System.out.println(personita.getTelefono());	
+	
+};
+
+
+
+Class Persona{
+
+	private int edad;
+	private str nombre;
+	private int telefono;
+
+	public Integer setEdad( Integer valorEdad ){
+		this.edad = valorEdad;
+			
+		};
+
+	public Integer getEdad(){
+		return.edad;	
+		}; 
+
+	public String getNombre(){
+		return.nombre;	
+		}; 
+
+	public String setNombre( String valorNombre ){
+		this.nombre = valorNombre;
+			
+		};
+
+
+	public Integer getTelefono(){
+		return.telefono;
+		};
+
+	public Integer setTelefono( Integer valorTelefono ){
+		this.telefono = valorTelefono;
+			
+		}
+};
