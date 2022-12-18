@@ -63,5 +63,5 @@ Class Persona{
 	public Integer setTelefono( Integer valorTelefono ){
 		this.telefono = valorTelefono;
 			
-		}
+		};
 };
