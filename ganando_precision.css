@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html{
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+}
+
+#elemento-1{
+    background-color: red;
+    font-size: 2rem;
+}
+
